@@ -89,7 +89,7 @@ while($row_category = mysqli_fetch_assoc($result_category)):
                                 <p class="card-text"><?php echo $row['description']; ?></p>
                             </div>
                             <div class="card-footer">
-                                <a href="#" class="btn btn-primary">Add to card</a>
+                                <a href="#" class="btn btn-primary">Add to cart</a>
                                 <a href="single.php?id=<?php echo $row['id']; ?>" class="btn btn-success">More info</a>
                             </div>
                         </div>
